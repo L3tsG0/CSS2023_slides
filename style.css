@@ -1,0 +1,50 @@
+/* style.css */ 
+
+:root {
+    font-size: 25px ; 
+    margin-bottom:0.25px!important;
+    margin-top:0.25px!important;
+    opacity: 0.8;
+    
+}
+
+h1{
+    font-size:1.7rem !important;
+    margin-bottom:0.25px!important;
+    
+}
+h2{
+    font-size:1.4rem!important;
+    margin-bottom:0.25px!important;
+    margin-top: 0px !important;
+    
+}
+
+  
+hr {
+    height:1px;
+    margin-bottom: 10px; /* お好みの値に設定 */
+    opacity: 1.0!important;
+    border-top: solid 0.1em rgba(0, 0, 0, 0.3);
+    border-bottom: solid 0.1em rgba(255, 255, 255, 0.496);
+  }
+
+/* すべてのテキスト要素のマージンを調整する */
+p,  h3, h4, h5, h6{
+    margin-bottom: 8pt !important;
+    margin-top: 0pt !important;
+    
+    
+}ul, ol {
+    margin: 0;
+    font-size: 22pt;
+    padding: 0;
+    margin-bottom: 1px!important;
+}
+
+li{
+
+    font-size: 22pt;
+    line-height:1pt;
+    margin-bottom: 1px!important; /* リストアイテム間の下のマージンを10pxに設定 */
+}

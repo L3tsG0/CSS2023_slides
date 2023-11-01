@@ -1,0 +1,24 @@
+
+
+
+/* styles/index.css */
+/*slidev defaultのテーマのpaddingの設定*/
+
+.slidev-layout.default {
+  padding: 20px !important;
+}
+.slidev-layout.cover {
+  padding: 100px !important;
+}
+/* styles/index.css */
+
+/* 全てのコードブロックのフォントサイズを調整 */
+pre {
+  font-size: 1.2em;
+}
+
+/* 特定のコードブロックのフォントサイズを調整 */
+/* 例えば、.large-codeクラスを持つコードブロック */
+pre.large-code {
+  font-size: 1.5em;
+}
